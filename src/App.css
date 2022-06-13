@@ -1,0 +1,293 @@
+.dropdown{
+  margin-right: -8px;
+}
+.add_button{
+  position: relative;
+  left: 34%;
+  width: 20%;
+  margin-top: -21px;
+  color: #df781e;
+  background: white;
+  border: 1px solid #df781e;
+  padding: 6px;
+  font-weight: 600;
+  box-shadow: 3px 3px #888888;
+}
+.ratingStyle{
+  border: 1px solid green;
+  background: green;
+  border-radius: 7px;
+  padding: 2px 8px 2px 8px;
+  color: white;
+  margin-left: 10px;
+}
+.rating{
+  position: relative;
+  top: -2px;
+  margin-right: 2px;
+}
+.float-layout {
+  padding: 5px 5px;
+  float: left;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  margin-bottom: -20px;
+}
+
+.card-container {
+  overflow: hidden;
+  padding-bottom: 20px;
+  padding-top:20px;
+  border-bottom: 1px solid #eee;
+}
+
+.card {
+  color: black;
+  min-height: 100%; 
+  width: 70%;
+  float: right;
+}
+.cuisine_list_div{
+  width: 100%;
+  overflow: hidden;
+}
+.card-title {
+  font-size: 15px;
+  text-align: left;
+  font-weight: bold;
+  padding-top: 0px;
+  padding-left: 10px;
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+.overflow-scroll{
+  overflow: scroll;
+}
+.card-desc {
+  padding: 10px;
+  text-align: left;
+  font-size: 12px;
+}
+.card-image {
+  display: flex;
+}
+div.card-image img {
+  width: 30%;
+  height: 100px;
+}
+.popular_head{
+  text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 800;
+}
+.dishName{
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+img.popularDishImage{
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+}
+.popularDishes {
+  height: 100px;
+  overflow: hidden;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.modules {
+  height:120px; 
+  padding:5px;
+  white-space:nowrap;
+  overflow-x: scroll;
+  overflow-y: hide;
+-webkit-overflow-scrolling:touch;
+}
+.item {
+  position: relative;
+  display:inline-block;
+  width:100px;
+  height:120px;
+  line-height:50px;
+  text-align:center;
+  /* background:#ddd; */
+}
+.item + .item {
+  margin-left:5px
+}
+
+.categories.selected{
+  background: #ff310040;
+  color: #ff3100;
+  border-color: #ff3100;
+}
+.categories{
+  border: 2px solid;
+  border-radius: 25px; 
+  padding: 5px 20px 5px 20px;
+}
+.cuisine_list {
+  display: inline-flex;
+  padding-left: 17px;
+}
+.cuisine_list li {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+}
+
+.vl{
+  border-left: 1px solid #b7ccb7;
+}
+.date_time{
+  margin-right: 10px;
+  margin-left:10px;
+  font-weight: 500;
+  display: inline-flex;
+  font-size: 15px;
+  vertical-align: middle;
+}
+.icon_div{
+  position: relative;
+  top:-2px;
+}
+.main{
+  width:100%;
+}
+.select_dishes{
+text-align: left;
+padding: 10px;
+font-size: 20px;
+font-weight: 500;
+font-family: revert;
+margin-left: 20px;
+}
+.hr{
+  height: 38px;
+  color: black;
+  background: black;
+  z-index: 10;
+}
+.header{
+  font-size:14px;
+  margin-top: -31px;
+  z-index: 100;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.float-button {
+  position: fixed;
+  bottom:20px;
+  width:100%;
+  }
+  .float-button button{
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 15px 25px 15px 25px;
+    background-color: black;
+    color: white;
+  }
+  .float-button:hover {
+    right: -7px;
+    }
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header{
+  border: 2px solid;
+  border-radius: 25px;
+ 
+}
+.dishmenu  {
+  position: relative;
+  height: 75px;
+  margin: auto;  
+}
+.alignleft {
+	float: left;
+  margin: 15px;
+  font-size: 27px;
+  display: inline-flex;
+}
+.alignright {
+  font-size: 15px;
+  float: right;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  background-color: black;
+  color: white;
+  margin-right:10px;
+}
+
+.categories2{
+  margin-right: 1000px; 
+}
+.categories3{
+ 
+  margin-right: 400px; 
+}
+.categories4{
+  margin-left: 400px; 
+}
+.categories5{
+  margin-left: 1100px; 
+  
+}
